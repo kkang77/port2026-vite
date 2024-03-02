@@ -73,7 +73,7 @@
 }
 .intro_lines.bottom .line {
     margin-top: 0.5vw;
-    margin-bottom: ;
+    margin-bottom: 0;
     display: none;
 }
 .intro_lines .line:nth-child(1) {
