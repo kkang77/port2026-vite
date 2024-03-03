@@ -1,6 +1,10 @@
 .site__inner {
     padding: 16px;
 }
+.site__inner h2 {
+background-color: var(--mainBg-color);
+width: 100%; 
+}
 .site__title {
     position: sticky;
     top: 70px;
@@ -15,7 +19,9 @@
     color: var(--black100);
     border-bottom: 0.4vw solid var(--black100);
     margin-bottom: 100px;
+    z-index: 1000;
 }
+
 .site__title em {
     font-size: 1.25rem;
     font-weight: 400;
@@ -98,3 +104,41 @@
     padding: 3px 0;
     text-transform: uppercase;
 }
+@media (max-width: 800px){
+    .site__title {
+        width: 100%;
+        margin-bottom: 10vw;
+        font-size: 30px;
+        height: auto;
+        background-color: var(--mainBg-color);
+        top: 68px;
+        z-index: 1000;
+    }
+         .site__item.s1 {
+            top: 140px;
+        }
+        .site__item.s2 {
+            top: 160px;
+        }
+        .site__item.s3 {
+            top: 180px;
+        }
+        .site__item.s4 {
+            top: 200px;
+        }
+        .site__item .num {
+            font-size: 80px;
+            left: 20px;
+            top: 20px;
+        }
+        .site__item .text > div {
+            font-size: 26px;
+        }
+        .site__item .info {
+            flex-direction: column;
+            width: 90%;
+            margin-left: 5%;
+            padding: 5px 0;
+        }
+    
+    }
