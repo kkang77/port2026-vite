@@ -8,6 +8,7 @@
     align-items: flex-start;
     justify-content: flex-end;
     flex-direction: column;
+    display: flex;
 }
 
 .contact__title {
@@ -42,6 +43,9 @@
     transition: all 0.3s;
     cursor: all-scroll;
 
+}
+.contact__lines {
+    width: 100%;
 }
 .contact__lines .line {
     display: block;
@@ -111,4 +115,8 @@
         padding: 0 16px;
         word-break: break-all;
     }
+    .contact__inner {
+        justify-content: center;
+    }
+    
 }
